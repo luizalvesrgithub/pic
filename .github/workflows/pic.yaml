@@ -1,7 +1,7 @@
 name: pic-goloang-workflow
 on: [push]
 jobs: 
-  check-aplication:
+  check-application:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2 # faz o gitcheckout
